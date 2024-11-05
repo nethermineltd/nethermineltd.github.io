@@ -19,7 +19,19 @@ nav a {
   color: #f2f2f2;
   margin: 0 15px;
   text-decoration: none;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-image: url('button.png'); /* Path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+nav a:hover {
+  opacity: 0.9; /* Optional hover effect */
+}
+
 
 .container {
   padding: 20px;
